@@ -18,6 +18,7 @@ embyID:
 
 embyNetwork:
   webPort: 9096
+  secureWebPort: 8920
   hostNetwork: false
 
 embyStorage:
