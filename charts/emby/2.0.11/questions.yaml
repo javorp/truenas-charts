@@ -97,6 +97,16 @@ questions:
             max: 65535
             default: 9096
             required: true
+        - variable: secureWebPort
+          label: Secure Web Port
+          description: The port for the Emby Web UI.
+          schema:
+            type: int
+            show_if: [["hostNetwork", "=", false]]
+            min: 9000
+            max: 65535
+            default: 9920
+            required: true
 
   - variable: embyStorage
     label: ""
